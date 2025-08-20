@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="nb" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="/bok/innovasjon/kp05.html">
+      
+      
+        <link rel="prev" href="/bok/innovasjon/kp04.html">
+      
+      
+        <link rel="next" href="/bok/innovasjon/kp06.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="/bok/innovasjon/assets/favicon.png">
+      
+    
+    
+      
+        <title>5. Prototyping - H&aring;ndbok i innovasjon for studenter</title>
+      
+    
+    
+      <link rel="stylesheet" href="/bok/innovasjon/assets/stylesheets/main.957d08c0.min.css">
+      
+        
+        <link rel="stylesheet" href="/bok/innovasjon/assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+
+<!--
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  window.iFrameResizer = {
+    targetOrigin: '/bok/'
+  }
+  $(document).ready(function() {
+    $('h1, h2, h3').on("contextmenu", function (e) {
+    navigator.clipboard.writeText(this.id).then(function() {
+    console.log('Copied to clipboard');
+    }, function(err) {
+    console.error('Could not copy text: ', err);
+    });
+    e.preventDefault();
+    });
+  });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.7/iframeResizer.contentWindow.js"></script></head><body><p>
+--&gt;
+
+  
+      
+    
+
+
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Domine:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Domine";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="/bok/innovasjon/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website">
+<meta property="og:title" content="5. Prototyping - H&aring;ndbok i innovasjon for studenter">
+<meta property="og:image" content="/bok/innovasjon/assets/images/social/kp05.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="/bok/innovasjon/kp05.html">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="5. Prototyping - H&aring;ndbok i innovasjon for studenter">
+<meta property="twitter:image" content="/bok/innovasjon/assets/images/social/kp05.png">
+
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    </p>
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#5-prototyping" class="md-skip">
+          G&aring; til innhold
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="/bok/innovasjon/" title="H&aring;ndbok i innovasjon for studenter" class="md-header__button md-logo" aria-label="H&aring;ndbok i innovasjon for studenter" data-md-component="logo">
+      
+  <img src="/bok/innovasjon/assets/bulb@4x.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            H&aring;ndbok i innovasjon for studenter
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              5. Prototyping
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="lime" data-md-color-accent="black" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="lime" data-md-color-accent="lime" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="S&oslash;k" placeholder="S&oslash;k" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="S&oslash;k">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Nullstill" aria-label="Nullstill" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Starter s&oslash;k
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigasjon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="/bok/innovasjon/" title="H&aring;ndbok i innovasjon for studenter" class="md-nav__button md-logo" aria-label="H&aring;ndbok i innovasjon for studenter" data-md-component="logo">
+      
+  <img src="/bok/innovasjon/assets/bulb@4x.svg" alt="logo">
+
+    </a>
+    H&aring;ndbok i innovasjon for studenter
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1">
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Om boken
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Om boken
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/omslag.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Omslag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kolofon.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Kolofon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Om boken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/toc.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Innhold
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitler
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitler
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp01.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Slik leser du boken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp02.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Innovasjon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp03.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Prosjektstyring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp04.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Innsiktsarbeid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Prototyping
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="/bok/innovasjon/kp05.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Prototyping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="I dette kapittelet:">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      I dette kapittelet:
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-handlingspunkt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1. Handlingspunkt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52-godt-nok" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2. Godt nok
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2. Godt nok">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#svarene-er-gode-nok" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Svarene er gode nok
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-testing-av-prototype" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Live testing av prototype
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53-hva-er-prototyping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3. Hva er prototyping?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3. Hva er prototyping?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#storyboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storyboards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototyper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prototyper
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54-studentenes-erfaringer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4. Studentenes erfaringer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.4. Studentenes erfaringer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#begynn-veldig-enkelt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Begynn veldig enkelt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tre-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tre tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eksempler-fra-teklab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eksempler fra TekLab
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp06.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Innholdsdesign
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp07.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Brukeropplevelse (UX)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp08.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Forretningsutvikling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp09.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Pitching
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp10.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Pivot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kp11.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Verkt&oslash;y
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/bok/innovasjon/kpx-ref.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Litteratur
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="I dette kapittelet:">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      I dette kapittelet:
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-handlingspunkt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1. Handlingspunkt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52-godt-nok" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2. Godt nok
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2. Godt nok">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#svarene-er-gode-nok" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Svarene er gode nok
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-testing-av-prototype" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Live testing av prototype
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53-hva-er-prototyping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3. Hva er prototyping?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3. Hva er prototyping?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#storyboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storyboards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototyper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prototyper
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54-studentenes-erfaringer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4. Studentenes erfaringer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.4. Studentenes erfaringer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#begynn-veldig-enkelt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Begynn veldig enkelt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tre-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tre tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eksempler-fra-teklab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eksempler fra TekLab
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="5-prototyping"><strong>5. Prototyping</strong></h1>
+<p><em>Dette kapitlet handler om metoder for &aring; lage prototyper som viser frem et verdiforslag.</em></p>
+<ul>
+<li>Low fi</li>
+<li>Hi fi</li>
+<li>Storyboards</li>
+</ul>
+<h2 id="51-handlingspunkt"><strong>5.1. Handlingspunkt</strong></h2>
+<ul>
+<li>En prototype er et forslag til hvordan produktet skal se ut. Den m&aring; kunne lages raskt og billig, og m&aring; v&aelig;re lett &aring; forandre.</li>
+<li>For designeren er prototypen et uttrykk for kreativiteten i prosjektet. Det handler om &aring; gi brukere en spennende og interessant opplevelse.</li>
+<li>For entrepren&oslash;ren er prototypen et uttrykk for &oslash;konomien i prosjektet. Det handler om &aring; utvikle prototypen til &aring; bli et salgbart produkt i virkeligheten.</li>
+</ul>
+<h2 id="52-godt-nok"><strong>5.2. Godt nok</strong> <img alt="img" class="avatar-kapittel-thumbnail" src="/bok/innovasjon/assets/figurer/avatarer/GeirTerje_avatar.png"></h2>
+<p>Jeg har alltid likt &aring; jobbe etter &ldquo;godt nok&rdquo;-prinsippet. Hvis du ikke jobber med liv og helse, eller med noe som kan gj&oslash;re at du kan saks&oslash;kes for millioner, sparer du b&aring;de tid og penger hvis du for eksempel begynner &aring; vise frem en prototype i den enkleste versjonen. </p>
+<p>Selv om du skal lage en digital tjeneste, er den aller enkleste m&aring;ten &aring; lage den f&oslash;rste prototypen p&aring;, trolig &aring; bruke penn og papir. </p>
+<p>Hvis testbrukeren forst&aring;r poenget og har noen gode innspill, har du kanskje nok inspirasjon og kunnskap til &aring; lage en prototype i Figma eller lignende. </p>
+<h3 id="svarene-er-gode-nok"><strong>Svarene er gode nok</strong></h3>
+<p>Poenget er at hvis du t&oslash;r vise frem en tidlig versjon av produktet, f&aring;r du raskt gode tilbakemeldinger som hjelper deg til m&aring;let. Hvis du er typen som gjerne vil ha en prototype s&aring; perfekt som mulig f&oslash;r du vil vise den frem, blir du aldri ansatt hos meg. Jeg vil heller vise frem en l&oslash;sning som er 70 prosent av det du mener er perfekt, og kanskje ogs&aring; lansere den som f&oslash;rste versjon av et produkt. For da har du trolig bare brukt en tredel av den tiden du kommer til &aring; bruke f&oslash;r den i dine &oslash;yne er 90 prosent perfekt. Svarene du vil f&aring; er omtrent like gode &aring; ta med seg p&aring; veien mot et endelig produkt.</p>
+<p>&ldquo;Godt nok&rdquo; er et godt prinsipp i mange sammenhenger. Mange av brukerne vil ikke se forskjell p&aring; godt nok og perfekt. Og det &aring; jobbe etter &ldquo;godt nok&rdquo;-prinsippet betyr ikke at du ikke alltid skal se om det er mulig (og fornuftig) &aring; gj&oslash;re forbedringer.</p>
+<figure class="figure-small">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Illustrasjoner/lilla4.png">
+</figure>
+<p>Det st&oslash;rste teknologiske gjennombruddet etter &aring;rtusenskiftet og f&oslash;r generativ AI ble enkelt &aring; bruke for vanlige folk, var da den f&oslash;rste versjonen av iPhone ble lansert i 2007. Det var s&aring; stort, at i de seks m&aring;nedene det gikk fra iPhone kom i salg i USA, til den ble tilgjengelig i Norge, var det hundrevis nordmenn som kj&oslash;pte en telefon som ikke hadde norske tjenester eller produkter tilpasset den. P&aring; VG Nett var det mer enn 1000 daglige brukere fra iPhone p&aring; fortidsteknologien wap flere m&aring;neder f&oslash;r det var mulig &aring; kj&oslash;pe Apple-produktet i Norge. </p>
+<figure class="figure-small">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Illustrasjoner/lilla3.png">
+</figure>
+<p>En klok kollega tok initiativet til &aring; lage en egen versjon av VG Netts forside til de som kom inn med iPhone. Versjonen kommer neppe til &aring; vekke stor glede hvis den vises frem i dag. Men det at den ble laget, det at iPhone-brukerne s&aring; at det var noen som tenkte p&aring; dem, gjorde at det ikke tok lang tid f&oslash;r vi kunne se at bruksm&oslash;nsteret var helt annerledes enn p&aring; de gamle Nokia-telefonene og kunne lage en forside til iPhone som etterhvert ble stort sett den samme som p&aring; PC.</p>
+<h3 id="live-testing-av-prototype"><strong>Live testing av prototype</strong></h3>
+<p>P&aring; den tiden testet vi egentlig prototyper live mot et publikum, for det var det eneste stedet hvor det var mulig &aring; finne brukere som forsto hva det handlet om. Og det var definitivt snakk om &aring; teste etter &ldquo;godt nok&rdquo;-prinsippet, for vi visste ikke hva som var perfekt.</p>
+<p>Det er en risikosport &aring; teste direkte mot sluttbrukere, men det er alltid en stor grad av tilgivelse &aring; hente n&aring;r produkter er ferske. Den fordelen VG hadde av &aring; v&aelig;re f&oslash;rst med en god l&oslash;sning for iPhone-brukerne kan ha p&aring;virket konkurransesituasjonen positivt, selv om VG allerede den gangen var klart st&oslash;rst blant norske nyhetsmedier.</p>
+<p>Selv om iPhone kom som et sjokk p&aring; mange, klarte vi ved &aring; v&aelig;re effektive og ta sjansen p&aring; at vi ikke bommet helt til &aring; se ut som om vi var godt forberedt p&aring; teknologiutviklingen. Hadde vi bommet, ville det ikke v&aelig;rt vanskelig &aring; finne inspirasjon i noe som andre hadde gjort, videreutvikle p&aring; det og raskt teste ut en annen l&oslash;sning.</p>
+<p>Er du bekymret for hva folk mener om det du lanserer, som du ikke synes er perfekt? Merk produktet med BETA og be om tilbakemeldinger, s&aring; f&aring;r du tilgivelse.</p>
+<h2 id="53-hva-er-prototyping"><strong>5.3. Hva er prototyping?</strong> <img alt="img" class="avatar-kapittel-thumbnail" src="/bok/innovasjon/assets/figurer/avatarer/Lars_avatar.png"></h2>
+<p>En prototype tvinger designeren til &aring; ta valg om hvilke funksjoner og interaksjonsformer fremfor andre. Dere kan samle mange innsikter om muligheter for l&oslash;sninger med alle de metodene som er beskrevet i kapittel 4, men til slutt m&aring; dere gj&oslash;re noen tydelige valg. Prototypen tvinger designeren til &aring; ta valg og vise fram konsekvensene av dem. Amerikanerne sier &ldquo;Put your money where your mouth is&rdquo;, og dette er akkurat hva en prototype gj&oslash;r. Den bytter ut strategisk tale med en teknisk l&oslash;sning. Prototyper kommuniserer et design til potensielle brukere, og gj&oslash;r det lett for dem &aring; vurdere det mulige produktet som designet uttrykker. Det blir ofte sagt at brukere ikke kan fortelle deg hva de trenger, men n&aring;r de f&aring;r pr&oslash;ve noe vil de fort kunne fortelle deg hva de <em>ikke</em> trenger (Preece, Rogers and Sharp, 2019, s. 422).</p>
+<p>Prototypingen handler om de skapende handlingene i utviklingsprosessen, og vi skiller mellom to typer, nemlig storyboarding og prototyping. </p>
+<h3 id="storyboards"><strong>Storyboards</strong></h3>
+<p>Storyboarding er en visuell fremvisning av hva et nytt produkt g&aring;r ut p&aring;, og kalles ofte &ldquo;low fidelity&rdquo; protyping. Sharp et.al. (2019, s. 426) sier at et storyboard ikke ser s&aelig;rlig ut som et ferdig produkt og heller ikke har noen reell funksjonalitetet. Det er vanligvis en fortelling som formidles i tegneserieform, og den viser hvordan en bruker vil bevege seg gjennom de handlingene som trengs for &aring; bruke produktet dere utvikler. </p>
+<figure class="figure-center">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Metodemodeller/Storyboarding_alternativ-light-dark.png">
+<figcaption>Modell 12: Storyboarding basert p&aring; Sharp et.al. 2019, s. 447ff.</figcaption>
+</figure>
+<p>Vi har laget en mal for et storyboard som viser en komplett &ldquo;brukerreise&rdquo; delt opp i seks handlinger. Slike brukerreiser blir ofte formidlet nettopp med storyboards. De gj&oslash;r det mulig for oppdragsgivere og investorer &aring; vurdere verdiforslaget ved &aring; g&aring; gjennom det steg for steg og se for seg hvor troverdige de skisserte handlingene er (Sharp et.al. 2019: s. 426). Vi har derfor inkludert kritiske sp&oslash;rsm&aring;l det kan v&aelig;re lett &aring; stille til hver av skissene.</p>
+<ol>
+<li>Introdus&eacute;r brukeren og problemet. Er dette en troverdig bruker? Finnes det en persona med brukerens bakgrunnshistorie?</li>
+<li>Vis hvordan problemet p&aring;virker brukeren. Er det et ekte problem?</li>
+<li>Vis hvordan deres l&oslash;sning kan gj&oslash;re situasjonen bedre. Hvor verdifull er l&oslash;sningen? Er den &ldquo;nice to have&rdquo; eller &ldquo;need to have&rdquo;?</li>
+<li>Vis hvordan brukeren kan f&aring; tilgang til deres l&oslash;sning. Kan den ogs&aring; brukes av brukere som ikke er fysisk tilstede her? Hva koster det &aring; f&aring; tilgang til l&oslash;sningen?</li>
+<li>Vis hvordan l&oslash;sningen kan brukes. Kan hele familien bruke den? B&oslash;r brukeren sitte eller st&aring; oppreist?</li>
+<li>Vis en forn&oslash;yd bruker som ikke lenger har et problem. Hvor troverdig er det at deres l&oslash;sning faktisk l&oslash;ser problemet?</li>
+</ol>
+<p>Hovedpoenget med &aring; lage storyboards er &aring; stimulere til kritisk tenkning hos designteamet og deres oppdragsgivere, investorer og potensielle brukere. De sp&oslash;rsm&aring;lene som blir utl&oslash;st av storyboardet er hovedpoenget med metoden (Sharp et.al. 2019: s. 447). Slik low-fidelity prototyping er en billig og effektiv m&aring;te &aring; luke ut svakheter i designet p&aring;.</p>
+<h3 id="prototyper"><strong>Prototyper</strong></h3>
+<p>De tre designforskerne Youn-kyung Lim, Erik Stolterman og Josh Tenenberg har skrevet en artikkel om verdien av &aring; lage prototyper n&aring;r man utvikler nye ting. Den heter &laquo;The Anatomy of Prototypes&raquo; og ble publisert i 2008. Den blir n&aring; brukt i toneangivende l&aelig;reb&oslash;ker.</p>
+<p>Dere m&aring; oppdage de viktigste kvalitetene. En prototype er fundamentalt forskjellig fra et produkt, sier de. Prototyper er verkt&oslash;y til &aring; designe verdiforslaget med, og ikke m&aring;let for prosessen. Form&aring;let med en prototype er &aring; finne den formen som enklest fremhever de kvalitetene designeren er interessert i (Lim et al., 2008, s. 10).</p>
+<p>Dere m&aring; finne det mest effektive uttrykket. Prototyper er et fors&oslash;k p&aring; &aring; se den framtidige virkningen av et design, og dermed forutse og vurdere utvalgte funksjoner f&oslash;r dere slipper det l&oslash;s p&aring; verdenen. Ved &aring; velge ut visse kvaliteter og vise dem frem i et konkret uttrykk, kan designeren bli mer bevisst p&aring; kompleksiteten og ta mer gjennomtenkte beslutninger (s. 7&ndash;8). Det gjelder &aring; finne det enkleste og mest effektive uttrykket for verdiforslaget. </p>
+<p>Prototyper er uferdige med vilje. Prototyper er nyttige ved <em>ikke</em> &aring; ta med alle mulige kvaliteter, men ved &aring; fremheve noen f&aring;. Det er en styrke og ikke en svakhet at prototypen er ufullstendig. Utvikleren unders&oslash;ker kvalitetene i en id&eacute; uten &aring; bygge en komplett versjon av l&oslash;sningsforslaget. Du sparer penger og kan skifte mening raskt (s. 7-8).</p>
+<p>Prototyper er ikke et produkt. En prototype er helt forskjellig fra et produkt. F&oslash;rst n&aring;r prototypen har blitt kvalitetssikret p&aring; en rekke m&aring;ter, er det lurt &aring; lage et faktisk produkt (s. 7). Et faktisk produkt krever en stor investering i arbeidstid og teknologi. Det er ikke lurt &aring; utl&oslash;se disse kostnadene uten &aring; ha gode grunner til &aring; tro at produktet vil skape den &oslash;nskede verdien (s. 4).</p>
+<figure class="figure-center">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Metodemodeller/Prototypens_anatomi-light.png#only-light">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Metodemodeller/Prototypens_anatomi-dark.png#only-dark">
+<figcaption>Modell 13: En modell over de viktigste kvalitetene i en prototype, basert p&aring; Lim et.al.</figcaption>
+</figure>
+<h4 id="manifestasjon"><strong>Manifestasjon</strong></h4>
+<p>Prosjektet ditt m&aring; ha et materielt uttrykk, eller en &laquo;manifestasjon&raquo;, sier Lim et.al. De deler dette i tre: </p>
+<ol>
+<li>Materiale. Prototypen m&aring; formes i fysisk materiale, f.eks. p&aring; papir eller i software. Hvilken publiseringskanal er best? Radio, fjernsyn, avis, podkast, etc.? M&aring;let er &aring; utforske hvilken materiell form verdiforslaget b&oslash;r ha. Hvordan skal det oppleves visuelt, lydlig og kroppslig?</li>
+<li>Oppl&oslash;sning. Prototypen m&aring; ha et passende detaljniv&aring; i visningen av innhold. Det g&aring;r an &aring; lage b&aring;de lofi- og hifi-prototyper. M&aring;let er &aring; utforske hvor detaljrik informasjonen b&oslash;r v&aelig;re. Hvor finmaskete data b&oslash;r presenteres til brukere? Dette tester du med ulike grader av oppl&oslash;sning.</li>
+<li>Omfang. Prototypen b&oslash;r presentere et utvalg av den samlede opplevelsen. Den tar for seg noen f&aring; handlinger, den har en begrenset varighet, et visst omfang av handlinger som kan gj&oslash;res av brukerne, etc. M&aring;let er &aring; utforske noen deler av verdiforslaget grundig, og slik l&aelig;re noe om helheten i brukeropplevelsen.</li>
+</ol>
+<h4 id="filtrering"><strong>Filtrering</strong></h4>
+<p>Dere kan "filtrere" frem ulike kvaliteter ved designid&eacute;en i ulike prototyper. Slik kan du pr&oslash;ve ut ulike aspekter ved id&eacute;en p&aring; testbrukere. Forfatterne deler det i fem:</p>
+<ol>
+<li>Framtoning. Prototypen m&aring; ha en viss st&oslash;rrelse, farge, form, vekt og proporsjoner. Kanskje har den ogs&aring; lyd og video. M&aring;let er &aring; utforske den fremtoningen verdiforslaget b&oslash;r ha n&aring;r det er ferdig. Hva passer best til m&aring;lgruppen og til de datatypene du er interessert i?</li>
+<li>Datatyper. Prototypen m&aring; ha en informasjonsarkitektur. Det kan v&aelig;re synlige data p&aring; skjermen og usynlige data som virker i bakgrunnen. Det kan v&aelig;re &laquo;lorem ipsum dolor etc.&raquo;, forseggjorte eksempler eller &laquo;live&raquo; data. M&aring;let er &aring; utforske hvilket omfang og vanskegrad det b&oslash;r v&aelig;re p&aring; data, og hvilken tidsbruk det skal utl&oslash;se hos brukere.</li>
+<li>Funksjonalitet. Prototypen viser fram funksjoner som kan bli utf&oslash;rt i designet, f.eks. sammendrag av nyheter. Noen funksjoner blir utf&oslash;rt i software og noen blir utf&oslash;rt i brukerens hardware. M&aring;let er &aring; utforske hvilket oppgaver systemet skal kunne utf&oslash;re for brukeren.</li>
+<li>Interaktivitet. Prototypen viser fram muligheter for interaktivitet, f.eks. at brukeren kan utl&oslash;se handlinger fra systemet ved hjelp av klikk og se resultatet p&aring; en skjerm eller med lyd (feedback). M&aring;let er &aring; utforske graden av deltagelse fra brukerne i verdiforslaget.</li>
+<li>Romlig struktur.</li>
+</ol>
+<p>Metoden som kalles Wizard of Oz er en live-simulering av funksjonalitet som faktisk ikke har blitt bygget, og den kan f&aring; brukere til &aring; oppleve prototypene p&aring; en m&aring;te som er overbevisende nok til at deres fordeler og potensial kan vurderes ordentlig.</p>
+<p><strong>Omveltende prototyping</strong>. Eksperimentell prototyping og innsiktsarbeid inneb&aelig;rer &aring; bruke teknologi som er s&aring; ny at den ikke er etablert i bransjen. I denne typen undervisning pr&oslash;ver vi nytt utstyr som sv&aelig;rt f&aring; utenfor de tekniske fagmilj&oslash;ene har testet til bruk for medier og kommunikasjon. En prototype kan ha et verdiforslag som tar sikte p&aring; &aring; utfordre eksisterende normer og holdninger, provosere til diskusjon og gi midler til en konstruktiv kritikk av selve teknologien, dens innvirkning p&aring; samfunnet, og ulike forutsetninger den har. Provoserende design er en tiln&aelig;rming der det &aring; stille sp&oslash;rsm&aring;l er like viktig som &aring; l&oslash;se et problem&raquo; (Raptis et al., s. 29). Provoserende design kan brukes for &aring; forst&aring; en spesifikk, gjeldende praksis, og fungerer som en teknologisonde som har noen provoserende egenskaper, og den kan ta sikte p&aring; &aring; utforske fremtidige designmuligheter (Raptis et al., s. 30). Eksperimenteringen foreg&aring;r "hjemme" i deres egne lokaler, og dere bringer ikke inn virksomheter. I disse omgivelsene kan man kaste seg ut i virkem&aring;tene til ny teknologi, finne opp nye uttrykk og v&aelig;re med &aring; presse grensene for mediets form. </p>
+<p><strong>Bevarende prototyping</strong>. Kommersiell prototyping og innsiktsarbeid er orientert mot bedrifters kortsiktige behov og studenters &oslash;nske om &aring; l&aelig;re seg &aring; tjene penger n&aring; med en gang. Studentene opptrer som et designteam sammen med kontaktpersoner i firmaet og blir kastet ut i et krevende oppdrag med stor usikkerhet. De m&aring; samarbeide med profesjonelle som de ikke kjenner, i et milj&oslash; de ikke kjenner. Prototypen m&aring; v&aelig;re nyttig for et firma. En prototype kan utforske et verdiforslag som kan hjelpe et mediefirma med &aring; utvikle en ny tjeneste, for eksempel for &aring; dra nytte av disruptiv teknologi for &aring; n&aring; nye m&aring;lgrupper. Firmaer trenger &aring; pr&oslash;ve ut nye muligheter for &aring; se om de kan f&oslash;re til nye inntektsstr&oslash;mmer. De trenger &aring; kunne drive en b&aelig;rekraftig virksomhet, de trenger &aring; n&aring; unge m&aring;lgrupper, og s&aring; videre. </p>
+<h4 id="sjekkliste-for-alt-som-kan-uttrykkes-i-prototypen"><strong>Sjekkliste for alt som kan uttrykkes i prototypen:</strong></h4>
+<ol>
+<li>Prosjektstyring. Prototypen b&oslash;r vise hvor stor arbeidsinnsats som trengs. Hvor mange medarbeidere? Hvor mange timer? Hvor lang produksjonsprosess? Prototypen b&oslash;r lages med en av metodene som beskrives i kapitlet om prosjektstyring.</li>
+<li>Verdiforslag. Hvilken konkrete verdi b&oslash;r prosjektet skape? Prototypen b&oslash;r uttrykke innsikter dere f&aring;r med metoder for innsiktsarbeid, brukeropplevelse og forretningsutvikling slik de beskrives i relevante kapitler her i h&aring;ndboken.</li>
+<li>Tekniske operasjoner. Hvilket tekniske operasjoner b&oslash;r utf&oslash;res? Trengs det kunstig intelligens? Hvilket verkt&oslash;y b&oslash;r brukes? Hvilken faglig ekspertise trengs? Dere b&oslash;r f&oslash;lge den metoden som beskrives i dette kapitlet.</li>
+<li>Innhold. Hvilket innhold b&oslash;r prosjektet ha? Hvordan b&oslash;r det publiseres? Er det et nettsted, en app, et medieuttrykk? Dere b&oslash;r f&oslash;lge den metoden som beskrives i kapitlet om innholdsdesign.</li>
+<li>Brukeropplevelse. Hvis testbrukerne forst&aring;r hvordan prototypen virker; Gratulerer! Hvem er m&aring;lgruppen? Hvem b&oslash;r v&aelig;re brukere, lesere, lyttere eller seere? Er m&aring;lgruppen andre profesjonelle, slik som journalister eller designere, eller er de helt vanlige mennesker som kan kalles sluttbrukere? Les kapittel 7 om igjen!</li>
+<li>Forretningsutvikling. Er det lett &aring; skj&oslash;nne utfra prototypen hvordan &oslash;konomisk verdi skapes? Hvem skal betale? Hvilken betalingsmodell? Er det en tjeneste som er gratis for brukerne fordi bedrifter eller staten betaler alle kostnader? Jo bedre slike valg uttrykkes i prototypen, jo sterkere st&aring;r verdiforslaget.</li>
+</ol>
+<h2 id="54-studentenes-erfaringer"><strong>5.4. Studentenes erfaringer</strong> <img alt="img" class="avatar-kapittel-julene-thumbnail" src="/bok/innovasjon/assets/figurer/avatarer/Julene_avatar.png"></h2>
+<p>Da vi jobbet med prototypen til Vink-prosjektet, var det ikke s&aring;nn at vi begynte med &eacute;n prototype og jobbet videre p&aring; den samme helt til prosjektets slutt. Vi laget flere prototyper av id&eacute;en v&aring;r, testet dem, - og fant raskt ut hva som fungerte og ikke. I en slik prosess er det viktig &aring; ikke bruke for mye tid p&aring; detaljene; prototypen b&oslash;r v&aelig;re passelig detaljert til at brukere og samarbeidspartnere skj&oslash;nner konseptet, men det er verken n&oslash;dvendig, b&aelig;rekraftig, eller i det hele tatt mulig med begrenset tid og ressurser, &aring; lage noe som er n&aelig;rmest et ferdig produkt f&oslash;r man brukertester. </p>
+<h3 id="begynn-veldig-enkelt"><strong>Begynn veldig enkelt</strong></h3>
+<p>En m&aring;te &aring; spare tid p&aring; er &aring; begynne med veldig enkle low-fidelity prototyper, gjerne i form av skisser p&aring; papir. Da unng&aring;r dere &aring; bruke dyrebar tid p&aring; &aring; teste id&eacute;er som ikke funker. Vink, derimot, ble f&oslash;dt og oppvokst i Figma. </p>
+<p>I den f&oslash;rste Vink-prototypen som ble brukertestet, hadde hver side omtrent &eacute;n tilgjengelig knapp og bruker-flyten var sv&aelig;rt begrenset. Selv om vi hadde tenkt at prototypen skulle illustrere en web-basert l&oslash;sning, utelot vi detaljer som for eksempel browservinduer som f&aring;r et produkt til &aring; virke mer realistisk. Dette gjorde at vi kunne raskt teste om id&eacute;en v&aring;r var god nok til &aring; videreutvikles. </p>
+<p><em>Spoiler: den var ikke god nok til &aring; videreutvikles! Takk og lov for at vi ikke brukte un&oslash;dvendig tid p&aring; detaljer i f&oslash;rste omgang.</em> </p>
+<figure class="figure-small">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Illustrasjoner/x10.png">
+</figure>
+<p>Brukerne som testet Vink hadde ikke problemer med interaksjonen, men var skeptiske til konseptet og motvillige til &aring; laste ned &ldquo;enda en app&rdquo;. Da m&aring;tte vi l&oslash;se problemet p&aring; en annen m&aring;te, og g&aring; tilbake til id&eacute;myldringen. Heldigvis hadde vi ikke brukt lang tid p&aring; dette utkastet, fordi vi visste at det var stor sannsynlighet for at det m&aring;tte endres eller kastes. Den siste prototypen, derimot, inkluderte alle detaljer som vi ser i ekte produkter. </p>
+<p>S&aring;, poenget er; prototypen skal ikke se pen ut i starten. </p>
+<p>Denne simuleringen er et eksempel p&aring; hvordan vi hadde tid og ressurser, og ikke minst mer innsikt om hva brukerne trengte, til &aring; lage en prototype som viser brukerreisen i noe som ligner p&aring; et ferdig produkt (fra low-fidelity til high-fidelity). Den ferdige prototypen har for eksempel en pop-up som simulerer at brukeren f&aring;r en SMS med verifiseringskode under registreringen. Det hadde v&aelig;rt un&oslash;dvendig &aring; bruke tid p&aring; en slik detalj n&aring;r konseptet ikke var ferdig. Det var heller noe vi la til i siste versjon for &aring; gi det en realistisk og fin finish.</p>
+<h3 id="tre-tips"><strong>Tre tips</strong></h3>
+<h4 id="hr-pa-brukerne"><strong>H&oslash;r p&aring; brukerne</strong></h4>
+<p>Vi brukte mye tid p&aring; et konsept som verken vi eller testbrukerne v&aring;re var forn&oslash;yde med, og gjorde det vi f&oslash;lte var tryggest ut ifra det v&aring;r samarbeidspartner, Future Solutions, &oslash;nsket. &AElig;rlige tilbakemeldinger fra testbrukerne fikk oss til &aring; innse at vi var n&oslash;dt til &aring; tenke nytt!</p>
+<h4 id="kill-your-darlings"><strong>Kill your darlings!</strong></h4>
+<p>V&aelig;r &aring;pen for at du kanskje m&aring; skrape ideer dersom de viser seg &aring; ikke funke. Underveis kan man fort f&aring; et sterkt eierskap til elementer av et design, funksjonaliteter eller et helt konsept. Dette kan lede prosjektet i feil retning. Fokuser p&aring; hva som er essensielt for brukeropplevelsen, hva man egentlig har tid og ressurser til &aring; designe, og ikke ta det personlig!</p>
+<h4 id="ta-vare-pa-alle-versjoner-av-prototypen"><strong>Ta vare p&aring; alle versjoner av prototypen</strong></h4>
+<p>Selv om du g&aring;r vekk fra en id&eacute; eller et design underveis, s&aring; s&oslash;rg for at du fortsatt har prototypen eller materialet lagret. Det kan v&aelig;re du ombestemmer deg og vil bruke noen av elementene likevel. I tillegg er dokumentasjon av designprosessen utrolig verdifull &aring; ha i ettertid n&aring;r du skal skrive rapporter og akademiske oppgaver, og hvis du inkluderer prosjektet i en portef&oslash;lje. I v&aring;re egne prosjekter lager vi alltid en egen side i Figma som vi kaller for fengsel, eller &ldquo;jail&rdquo;, der vi samler ideer som blir forkastet underveis. Det er ikke en d&oslash;dsdom og ideene kan fortsatt f&aring; slippe ut igjen, skulle vi finne ut at vi faktisk kan bruke dem likevel. </p>
+<figure class="figure-small">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Illustrasjoner/Jail-light.png#only-light">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Illustrasjoner/Jail-dark.png#only-dark">
+</figure>
+<h3 id="eksempler-fra-teklab"><strong>Eksempler fra TekLab</strong></h3>
+<p>Alle studentprosjekter som er utf&oslash;rt i samarbeid med TekLabs best&aring;r av en eller flere prototyper. Dette er selve kjernen i innovasjonsarbeidet. Her presenterer vi noen av dem.</p>
+<h4 id="oppdag-o"><strong>Oppdag O</strong></h4>
+<p>I samarbeid med Akvariet i Bergen lagde en gruppe bachelorstudenter en prototype for fremtidens havsenter "O" som skal bygges p&aring; Dokken. Ved bruk av VR-teknologi f&aring;r brukeren en utforskende og l&aelig;rerik &ldquo;heads-up, hands-free&rdquo; opplevelse full av diskusjon, samarbeid, og fysisk bevegelse. For &aring; kunne brukerteste konseptet i de tidlige fasene lagde de en fysisk versjon av VR-universet. De lagde glassmaneter og tang av papir og gaveb&aring;nd, og tegnet og klippet ut et papirkart som brukerne kunne g&aring; rundt p&aring;.</p>
+<h4 id="schizofreni"><strong>Schizofreni</strong></h4>
+<p>Schizofreni er en prototype som utforsker bruk av VR i journalistikk. Schizofreni er en dokumentarfortelling i tre scener, i et virtuelt milj&oslash; som simulerer en vanlig leilighet, og den er preget av sterke visuelle og auditive effekter og animasjon som simulerer hallusinasjoner. Opplevelsen gir brukeren en f&oslash;lelse av hvordan det er &aring; lide av schizofreni og kan dermed bidra til bedre forst&aring;else av sykdommen. <a href="https://www.vismedia.org/vr-journalism-higher-education" target="_blank" rel="noopener">Les mer om Schizofreni-prosjektet her.</a></p>
+<h4 id="paintar"><strong>PaintAR</strong></h4>
+<p>PaintAR-prototypen kombinerer full body tracking og AR teknologi og gir brukeren mulighet til &aring; bruke kroppen som en virtuell malerpensel. Tanken bak PaintAR er at brukerne skal kunne lage og utforske en verden av kunstverk i det offentlige rom, innebygd i en virtuell verden, med bruk av geolokasjon og elementer fra sosiale medier.  <a href="/artikler/paintar-painting-in-augmented-reality/" target="_blank" rel="noopener">Les mer om PaintAR her.</a></p>
+<figure class="figure-small">
+<img alt="img" src="/bok/innovasjon/assets/figurer/Illustrasjoner/x4.png">
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Tilbake til toppen
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+    
+      
+        
+        <nav class="md-footer__inner md-grid" aria-label="Footer">
+          
+            
+            <a href="/bok/innovasjon/kp04.html" class="md-footer__link md-footer__link--prev" aria-label="Forrige: 4. Innsiktsarbeid">
+              <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+              </div>
+              <div class="md-footer__title">
+                <span class="md-footer__direction">
+                  Forrige
+                </span>
+                <div class="md-ellipsis">
+                  4. Innsiktsarbeid
+                </div>
+              </div>
+            </a>
+          
+          
+            
+            <a href="/bok/innovasjon/kp06.html" class="md-footer__link md-footer__link--next" aria-label="Neste: 6. Innholdsdesign">
+              <div class="md-footer__title">
+                <span class="md-footer__direction">
+                  Neste
+                </span>
+                <div class="md-ellipsis">
+                  6. Innholdsdesign
+                </div>
+              </div>
+              <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+              </div>
+            </a>
+          
+        </nav>
+      
+    
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        
+        <div class="md-copyright__highlight md-copyright">
+        Forfattere: 
+        Lars Nyre, Geir Terje Ruud, 
+        Audun Klyve Gulbrandsen, Julie Sofie Berntsen, 
+        Julia Hellem Brandt, og Helene H&oslash;ylandskj&aelig;r.
+        </div>
+        <div class="md-copyright__highlight md-copyright">
+          &copy; <a href="/" target="_blank" rel="noopener">TekLab, Universitetet i Bergen, 2025</a>
+          1. utgave
+          ISBN: 978-82-8033-041-3 (E-bok, HTML)
+          </div>
+        <div class="md-copyright__highlight md-copyright">
+        Illustrasjoner: Julia Hellem Brandt
+        Webutvikling: Audun Klyve Gulbrandsen       
+        </div>
+      </div>
+    </div>
+  </footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.top", "navigation.footer"], "search": "assets/javascripts/workers/search.c7c1ca2c.min.js", "translations": {"clipboard.copied": "Kopiert til utklippstavlen", "clipboard.copy": "Kopier til utklippstavlen", "search.result.more.one": "1 til p\u00e5 denne siden", "search.result.more.other": "# flere p\u00e5 denne siden", "search.result.none": "Ingen treff", "search.result.one": "1 treff", "search.result.other": "# treff", "search.result.placeholder": "Skriv s\u00f8keord", "search.result.term.missing": "Mangler", "select.version": "Velg versjon"}}</script>
+    
+    
+      <script src="/bok/innovasjon/assets/javascripts/bundle.5a789024.min.js"></script>
+      
+        <script src="/bok/innovasjon/javascripts/shortcuts.js"></script>
+      
+        <script src="/bok/innovasjon/javascripts/footer-nav.js"></script>
+      
+    
+  
+</body></html>

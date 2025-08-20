@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Prototyper - TekLab</title>
+	<atom:link href="/prototype/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Thu, 02 May 2024 11:31:42 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.2</generator>
+
+<image>
+	<url>/wp-content/uploads/cropped-Teklab_logo-32x32.png</url>
+	<title>Prototyper - TekLab</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Seila</title>
+		<link>/prototype/seila/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Thu, 02 May 2024 11:31:42 +0000</pubDate>
+				<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=5052</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Seila-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Seila" decoding="async" title="Prototyper 1">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Seila-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Seila" decoding="async" title="Prototyper 2">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sitizens</title>
+		<link>/prototype/sitizens/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Thu, 02 May 2024 11:30:16 +0000</pubDate>
+				<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=5050</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Sitizens-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Sitizens" decoding="async" title="Prototyper 3">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Sitizens-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Sitizens" decoding="async" loading="lazy" title="Prototyper 4">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Miniatyrmysterier</title>
+		<link>/prototype/miniatyrmysterier/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Thu, 02 May 2024 11:29:06 +0000</pubDate>
+				<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=5046</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/miniatyrmysterier-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="miniatyrmysterier" decoding="async" loading="lazy" title="Prototyper 5">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/miniatyrmysterier-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="miniatyrmysterier" decoding="async" loading="lazy" title="Prototyper 6">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>MiniQuest</title>
+		<link>/prototype/miniquest/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Thu, 02 May 2024 11:25:46 +0000</pubDate>
+				<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=5048</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/MiniQuest-e1714040506637-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="MiniQuest e1714040506637" decoding="async" loading="lazy" title="Prototyper 7">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/MiniQuest-e1714040506637-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="MiniQuest e1714040506637" decoding="async" loading="lazy" title="Prototyper 8">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Future Fest Video: Conversations with media scholars</title>
+		<link>/prototype/future-fest-video-conversations-with-media-scholars/</link>
+		
+		<dc:creator><![CDATA[Janina Wildermuth]]></dc:creator>
+		<pubDate>Wed, 04 Oct 2023 15:04:35 +0000</pubDate>
+				<category><![CDATA[Arrangementer]]></category>
+		<category><![CDATA[Evaluering]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=4344</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/gdsfg-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="gdsfg" decoding="async" loading="lazy" title="Prototyper 9">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/gdsfg-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="gdsfg" decoding="async" loading="lazy" title="Prototyper 10">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Timeline: Tilbake til fortiden</title>
+		<link>/prototype/timeline-tilbake-til-fortiden/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 13:57:06 +0000</pubDate>
+				<category><![CDATA[Prosjekter]]></category>
+		<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=3835</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Timeline-bannerbilde-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Timeline bannerbilde" decoding="async" loading="lazy" title="Prototyper 11">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Timeline-bannerbilde-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Timeline bannerbilde" decoding="async" loading="lazy" title="Prototyper 12">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Podium: Vis vår ungdom</title>
+		<link>/prototype/podium-vis-var-ungdom/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 13:55:40 +0000</pubDate>
+				<category><![CDATA[Prosjekter]]></category>
+		<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=3834</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/podium-banner-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="podium banner" decoding="async" loading="lazy" title="Prototyper 13">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/podium-banner-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="podium banner" decoding="async" loading="lazy" title="Prototyper 14">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TapMap: Mapping the happening</title>
+		<link>/prototype/tapmap-mapping-the-happening/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 13:53:45 +0000</pubDate>
+				<category><![CDATA[Prosjekter]]></category>
+		<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=3833</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/tapmap-banner-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="tapmap banner" decoding="async" loading="lazy" title="Prototyper 15">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/tapmap-banner-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="tapmap banner" decoding="async" loading="lazy" title="Prototyper 16">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Futurhus: Noe å se frem til</title>
+		<link>/prototype/futurhus-noe-a-se-frem-til/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 13:51:51 +0000</pubDate>
+				<category><![CDATA[Prosjekter]]></category>
+		<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=3832</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Futurhus-banner-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Futurhus banner" decoding="async" loading="lazy" title="Prototyper 17">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Futurhus-banner-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Futurhus banner" decoding="async" loading="lazy" title="Prototyper 18">]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Plassen - Sammen finner vi veien fram</title>
+		<link>/prototype/plassen-sammen-finner-vi-veien-fram/</link>
+		
+		<dc:creator><![CDATA[Lone Nyløkken]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 13:50:12 +0000</pubDate>
+				<category><![CDATA[Prosjekter]]></category>
+		<category><![CDATA[Prototype]]></category>
+		<guid isPermaLink="false">/?post_type=prototype#038;p=3836</guid>
+
+					<description><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Plassen-Header-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Plassen Header" decoding="async" loading="lazy" title="Prototyper 19">]]></description>
+										<content:encoded><![CDATA[<img width="150" height="150" src="/wp-content/uploads/Plassen-Header-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Plassen Header" decoding="async" loading="lazy" title="Prototyper 20">]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
